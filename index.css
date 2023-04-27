@@ -1,0 +1,26 @@
+body{
+    font-family: "Raleway";
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.6rem 6rem;
+    color: #303134;
+}
+
+.navigation{
+    width: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: auto;
+    width: fit-content;
+}
+
+.logo{
+    height: 2rem;
+}
