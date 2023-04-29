@@ -98,8 +98,8 @@ body {
     width: 20%;
 }
 
-.container2_description>div{
-    width:15rem;
+.container2_description>div {
+    width: 15rem;
 }
 
 .container2 {
@@ -118,28 +118,72 @@ body {
 .container2_description>img {
     width: 2.875rem;
 }
-.container2_description>h3{
+
+.container2_description>h2 {
     margin-bottom: 0.5rem;
     color: #1A1A1B;
 }
 
-.color_secondary{
+.color_secondary {
     color: #8D8D8D;
 }
-#book-list{
+
+#book-list {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 2rem;
     justify-content: center;
 }
 
-#book-list>li{
+#book-list>li {
     list-style: none;
     width: 16.813rem;
 }
 
-#book-list>li>img{
+#book-list>li>img {
     height: 11.313rem;
     width: 16.813rem;
     object-fit: cover;
+}
+
+.container3 {
+    background-image: url("./assets/images/container3_background_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 36rem;
+}
+
+.container3_overlay {
+    background: rgba(0, 0, 0, 0.747);
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container3_elements {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    color: white;
+    z-index: 2;
+}
+
+.elements3 {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.elements3>h5{
+    margin-bottom: 0;
 }
