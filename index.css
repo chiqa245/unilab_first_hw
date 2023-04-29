@@ -34,8 +34,8 @@ body {
     height: 90rem;
 }
 
-.container1_overlay{
-    background-image: linear-gradient( rgb(100, 224, 209, 0.7), rgb(8, 174, 234, 0.7));
+.container1_overlay {
+    background-image: linear-gradient(rgb(100, 224, 209, 0.7), rgb(8, 174, 234, 0.7));
     position: absolute;
     overflow: hidden;
     height: 100%;
@@ -62,7 +62,8 @@ body {
     text-align: left;
     color: #006cd1;
 }
-.container1_price_wrapper{
+
+.container1_price_wrapper {
     background-image: url("./assets/images/layer2.png");
     width: 17.938rem;
     display: flex;
@@ -79,7 +80,7 @@ body {
     font-size: 1.125rem;
 }
 
-.container1_arrow_buttons{
+.container1_arrow_buttons {
     width: 100%;
     height: 100%;
     display: flex;
@@ -90,17 +91,55 @@ body {
     position: absolute;
     box-sizing: border-box;
 }
-.container2_description{
+
+.container2_description {
     display: flex;
     flex-direction: column;
-   
+    width: 20%;
 }
-.dedamoyunuli1{
-    width: 85px;
-    height: 13px;
 
+.container2_description>div{
+    width:15rem;
 }
-.dedamotynuli2{
-    width: 114px;
-    height: 114px;
+
+.container2 {
+    display: flex;
+    padding: 3rem 5.938rem;
+}
+
+.container2_cards {
+    width: 80%;
+}
+
+.container2_description>h5 {
+    margin: 0;
+}
+
+.container2_description>img {
+    width: 2.875rem;
+}
+.container2_description>h3{
+    margin-bottom: 0.5rem;
+    color: #1A1A1B;
+}
+
+.color_secondary{
+    color: #8D8D8D;
+}
+#book-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2rem;
+    justify-content: center;
+}
+
+#book-list>li{
+    list-style: none;
+    width: 16.813rem;
+}
+
+#book-list>li>img{
+    height: 11.313rem;
+    width: 16.813rem;
+    object-fit: cover;
 }
