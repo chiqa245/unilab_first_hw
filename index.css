@@ -1,4 +1,5 @@
 body {
+    color: #1A1A1B;
     font-family: "Raleway";
 }
 
@@ -186,4 +187,24 @@ body {
 
 .elements3>h5{
     margin-bottom: 0;
+}
+.container4_icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 6rem;
+    box-sizing: border-box;
+}
+.container4_icons>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container4_icons>div>p{
+    font-family: "Lato";
+    font-size: 2rem;
+    margin-bottom: 0;
+    font-weight: bold;
 }
