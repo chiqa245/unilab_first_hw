@@ -17,7 +17,7 @@ body {
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1.25rem;
     margin-left: auto;
     width: fit-content;
 }
@@ -57,9 +57,9 @@ body {
 }
 
 .container1_price {
-    font-size: 21px;
+    font-size: 1.313rem;
     font-weight: bold;
-    line-height: 37px;
+    line-height: 2.313rem;
     text-align: left;
     color: #006cd1;
 }
@@ -203,28 +203,28 @@ body {
 
 .container_4cards {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
     justify-content: center;
     margin-bottom: 0%;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .container_4_card {
-    box-shadow: 0 0 6px 0px rgb(205, 203, 203);
+    box-shadow: 0 0 0.375rem 0rem rgb(205, 203, 203);
 }
 
 .container_4_card>img {
-    height: 262px;
-    width: 270px;
+    height: 16.375rem;
+    width: 16.875rem;
     object-fit: cover;
 }
 
 .yellow_tag {
     background-color: #FED701;
     width: fit-content;
-    padding: 8px;
+    padding: 0.5rem;
     position: absolute;
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .yellow_tag>p {
@@ -246,19 +246,19 @@ body {
 .container5 {
     background: url("./assets/images/container_5img.png");
     background-size: cover;
-    height: 350px;
+    height: 21.875rem;
     color: white;
     background-repeat: no-repeat;
     position: relative;
 }
 
 .custom_input {
-    width: 395px;
-    height: 50px;
-    outline: white auto 1px;
+    width: 24.688rem;
+    height: 3.125rem;
+    outline: white auto 0.063rem;
     background: transparent;
-    border-radius: 25px;
-    padding-left: 30px;
+    border-radius: 1.563rem;
+    padding-left: 1.875rem;
 }
 
 .custom_input::placeholder {
@@ -267,16 +267,16 @@ body {
 }
 
 .custom_input:focus-visible {
-    outline: white auto 1px;
+    outline: white auto 0.063rem;
 }
 
 .custom_button {
-    width: 155px;
-    height: 50px;
+    width: 9.688rem;
+    height: 3.125rem;
     background-color: white;
     color: #08AEEA;
-    border: 1px solid white;
-    border-radius: 25px;
+    border: 0.063rem solid white;
+    border-radius: 1.563rem;
 }
 
 .container5_elements {
@@ -296,7 +296,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 
 .container_header>h5 {
@@ -308,7 +308,7 @@ body {
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
     width: 100%;
 }
 .container5_card>h3{
@@ -322,14 +322,14 @@ body {
     position: relative;
     text-align: center;
     box-sizing: border-box;
-    width: 368px;
-    height: 450px;
-    padding: 54px;
+    width: 23rem;
+    height: 28.125rem;
+    padding: 3.375rem;
 }
 .contaier5_ready {
     background: url("./assets/images/container5_nature.png");
     background-size: 100%;
-    height: 505px;
+    height: 31.563rem;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -343,26 +343,26 @@ body {
     justify-content: center;
     align-items: center;
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 3.125rem;
 }
 .custom_button_cyan {
-    margin-top: 20px;
-    width: 155px;
-    height: 50px;
+    margin-top: 1.25rem;
+    width: 9.688rem;
+    height: 3.125rem;
     background-image: linear-gradient(rgb(100, 224, 209, 0.7), rgb(8, 174, 234, 0.7));
     color: white;
     border: none;
-    border-radius: 25px;
+    border-radius: 1.563rem;
 }
 .container6_cards{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
 }
 .container6_card{
-    width: 271px;
-    height: 425px;
+    width: 16.938rem;
+    height: 26.563rem;
     box-sizing: border-box;
     position: relative;
     color: white;
@@ -370,28 +370,28 @@ body {
 }
 
 .container6_card>img{
-    width: 271px;
-    height: 425px;
+    width: 16.938rem;
+    height: 26.563rem;
     position: absolute;
     z-index: -1;
     object-fit: cover;
 }
 .arr_right_btn{
-    height: 40px;
-    width: 40px;
+    height: 2.5rem;
+    width: 2.5rem;
 }
 .item_bottom{
     position: absolute;
     bottom: 0;
-    margin-left: 10px;
+    margin-left: 0.625rem;
 }
 
 .item_right_bottom{
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
 }
 
 .overlay_blur {
@@ -408,7 +408,7 @@ table {
   
   td, th {
     text-align: left;
-    padding: 8px;
+    padding: 0.5rem;
 }
 
 footer{
@@ -420,7 +420,7 @@ footer{
   .contact{
     display: flex;
     align-items: center;
-    padding: 54px 94px;
+    padding: 3.375rem 5.875rem;
   }
 
   .custom_send_msg{
@@ -429,16 +429,16 @@ footer{
   }
 
   .custom_send_msg>input{
-    width:343px;
-    height: 48px;
+    width: 21.438rem;
+    height: 3rem;
     border: none;
     outline: none;
   }
 
   .square_btn{
-    width: 50px;
-    height: 50px;
-    border-radius: 1px;
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 0.063rem;
     margin-top: 0;
     cursor: pointer;
   }
@@ -451,5 +451,5 @@ footer{
   }
 
   .mapouter{
-    margin-top: 70px;
+    margin-top: 4.375rem;
   }
