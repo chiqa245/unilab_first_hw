@@ -353,3 +353,50 @@ body {
     border: none;
     border-radius: 25px;
 }
+.container6_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.container6_card{
+    width: 271px;
+    height: 425px;
+    box-sizing: border-box;
+    position: relative;
+    color: white;
+    font-family: "Montserrat";
+}
+
+.container6_card>img{
+    width: 271px;
+    height: 425px;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+.arr_right_btn{
+    height: 40px;
+    width: 40px;
+}
+.item_bottom{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+}
+
+.item_right_bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.overlay_blur {
+    background-image: linear-gradient(rgb(250 250 250 / 58%),rgb(0 0 0 / 70%));
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
