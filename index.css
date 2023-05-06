@@ -91,6 +91,7 @@ body {
     z-index: 2;
     position: absolute;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .container2_description {
@@ -400,3 +401,55 @@ body {
     height: 100%;
     width: 100%;
 }
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+footer{
+    background-color: #141418;
+    color:white;
+}
+
+
+  .contact{
+    display: flex;
+    align-items: center;
+    padding: 54px 94px;
+  }
+
+  .custom_send_msg{
+    display: flex;
+    align-items: center;
+  }
+
+  .custom_send_msg>input{
+    width:343px;
+    height: 48px;
+    border: none;
+    outline: none;
+  }
+
+  .square_btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 1px;
+    margin-top: 0;
+    cursor: pointer;
+  }
+
+  .rights{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mapouter{
+    margin-top: 70px;
+  }
