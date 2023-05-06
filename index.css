@@ -301,3 +301,55 @@ body {
 .container_header>h5 {
     margin-bottom: 0;
 }
+
+.container5_cards{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+}
+.container5_card>h3{
+    color: #4B54FA;
+}
+.container5_card{
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    width: 368px;
+    height: 450px;
+    padding: 54px;
+}
+.contaier5_ready {
+    background: url("./assets/images/container5_nature.png");
+    background-size: 100%;
+    height: 505px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.contaier5_ready_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.custom_button_cyan {
+    margin-top: 20px;
+    width: 155px;
+    height: 50px;
+    background-image: linear-gradient(rgb(100, 224, 209, 0.7), rgb(8, 174, 234, 0.7));
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
