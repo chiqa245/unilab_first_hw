@@ -91,6 +91,9 @@ body {
     z-index: 2;
     position: absolute;
     box-sizing: border-box;
+}
+
+.container1_arrow_buttons>button{
     cursor: pointer;
 }
 
@@ -332,6 +335,7 @@ body {
     height: 31.563rem;
     width: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: end;
@@ -452,4 +456,119 @@ footer{
 
   .mapouter{
     margin-top: 4.375rem;
+  }
+
+
+
+  @media screen and (max-width: 1350px) {
+    #book-list {
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .container5_cards {
+        flex-direction: column;
+    }
+    .container6_cards{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+  }
+
+  @media screen and (max-width: 1100px){
+    #book-list {
+        grid-template-columns: auto;
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .container_4cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container_4card{
+        width:fit-content;
+    }
+
+    .container2_description{
+        width: 15rem;
+    }
+
+    .container1_title, .container1_title2{
+        font-size: medium;
+    }
+    .container3_elements>iframe{
+        width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 650px){
+
+    .container2{
+        flex-direction: column;
+    }
+
+    .container6_cards{
+        grid-template-columns:auto;
+    }
+    .container4_icons{
+        flex-direction: column;
+    }
+
+    .container2{
+        padding: 0;
+        align-items: center;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .custom_send_msg>input{
+        width: 250px;
+    }
+
+    .contact{
+        padding: 0;
+    }
+    .navbar>img{
+        display: none;
+    }
+    .navigation{
+        flex-direction: column;
+        padding: 0;
+    }
+    .container1_price_wrapper {
+        width: 10rem;
+    }
+    .container1_price_wrapper>h3{
+        font-size: 0.8rem;
+    }
+    .container1_arrow_buttons{
+        padding: 0;
+    }
+    .container3_elements>iframe{
+        width: 300px;
+    }
+    .container5_elements>div{
+        display: flex;
+        flex-direction: column;
+    }
+    .custom_input{
+        width:200px;
+        padding: 0;
+    }
+    table{
+        word-wrap: break-word;    
+        font-size: 0.8rem;
+    }
+    th{
+        padding: 0;
+    }
+    .container5_card{
+        width: 20rem;
+    }
   }
