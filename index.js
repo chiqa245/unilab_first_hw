@@ -1,10 +1,10 @@
-fetch('https://fakerapi.it/api/v1/books')
+function retrieveServicesData(){
+    fetch('https://fakerapi.it/api/v1/books')
     .then(response => response.json())
     .then(r => {
         const bookList = document.getElementById('book-list');
 
         for (i = 0; i < 6; i++) {
-            console.log(r.data[i])
             const li = document.createElement('li');
             const img=document.createElement("img");
             img.setAttribute("src", r.data[i].image);
@@ -22,3 +22,17 @@ fetch('https://fakerapi.it/api/v1/books')
         }
     })
     .catch(error => console.error(error));
+}
+
+
+   function openCloseNavBar(){
+       var x = document.getElementById("burgerLinks");
+       if(x.style.display === "flex"){
+         x.style.display = "none";
+       }
+       else{
+         x.style.display = "flex";
+       }
+    }
+
+    retrieveServicesData();

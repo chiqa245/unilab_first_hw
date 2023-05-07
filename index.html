@@ -16,18 +16,38 @@
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav class="navbar" id="home">
         <img class="logo" src="./assets/images/logo.png">
 
         <ul class="navigation">
-            <li>
-                HOME</li>
-            <li>
-                ABOUT US</li>
-            <li>
-                OUR SERVICES</li>
-            <li>
-                TOUR PACKAGE</li>
+            <div class="inline_menu">
+                <li>
+                    <a href="#home">HOME</a>
+                </li>
+                <li>
+                    <a href="#about_us">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#our_services">OUR SERVICES</a>
+                </li>
+                <li>
+                    <a href="#tour_package">TOUR PACKAGE</a>
+                </li>
+            </div>
+
+            <div class="burger_menu">
+                <div id="burgerLinks">
+                    <a href="#home">HOME</a>
+                    <a href="#about_us">ABOUT US</a>
+                    <a href="#our_services">OUR SERVICES</a>
+                    <a href="#tour_package">TOUR PACKAGE </a>
+                </div>
+
+                <a href="javascript:void(0);" class="icon" onclick="openCloseNavBar()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
         </ul>
     </nav>
 
@@ -47,7 +67,7 @@
         </div>
     </div>
 
-    <div class="container2">
+    <div class="container2" id="our_services">
         <div class="container2_description">
             <div>
                 <h5 class="color_secondary">DISCOVER</h5>
@@ -81,7 +101,7 @@
 
     </div>
 
-    <div class="container4">
+    <div class="container4" id="tour_package">
         <div class="container4_icons">
 
             <div>
@@ -119,9 +139,9 @@
                 </div>
                 <img src="./assets/images/container4_cardimg1.png" alt="Greece_img">
                 <div class="container_4_card_info">
-                    <h4>$299/person</h4>
+                    <h4 class="container4_h4">$299/person</h4>
                     <h3 class="purple_txt">Blue Beauty of Greece</h3>
-                    <h4>5 Days / 6 Night</h4>
+                    <h4 class="container4_h4_2">5 Days / 6 Night</h4>
                 </div>
 
             </div>
@@ -132,9 +152,9 @@
 
                 <img src="./assets/images/container4_cardimg2.png" alt="nature_img">
                 <div class="container_4_card_info">
-                    <h4>$178/person</h4>
+                    <h4 class="container4_h4">$178/person</h4>
                     <h3 class="purple_txt">Nature of Phuket</h3>
-                    <h4>3 Days / 4 Night</h4>
+                    <h4 class="container4_h4_2">3 Days / 4 Night</h4>
                 </div>
             </div>
             <div class="container_4_card">
@@ -143,9 +163,9 @@
                 </div>
                 <img src="./assets/images/container4_cardimg3.png" alt="eifel_img">
                 <div class="container_4_card_info">
-                    <h4>$1111/person</h4>
+                    <h4 class="container4_h4">$1111/person</h4>
                     <h3 class="purple_txt">Woeld Tour of Paris</h3>
-                    <h4>7 Days / 8 Night</h4>
+                    <h4 class="container4_h4_2">7 Days / 8 Night</h4>
                 </div>
 
             </div>
@@ -279,7 +299,7 @@
         </style>
     </div>
 
-    <footer>
+    <footer id="about_us">
         <div class="contact">
             <table>
                 <tr>
@@ -308,18 +328,18 @@
                     <td class="color_secondary">contactous@demo.com</td>
                 </tr>
                 <br>
-    
-    
+
+
             </table>
-    
+
             <div class="send_msg">
                 <p>Subscribe to our newsletter</p>
                 <div class="custom_send_msg">
                     <input placeholder="Your Email">
                     <button class="custom_button_cyan square_btn"><i class="fa-solid fa-paper-plane-top"></i></button>
                 </div>
-    
-                
+
+
             </div>
         </div>
         <hr>
